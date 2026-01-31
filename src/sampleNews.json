@@ -1,0 +1,54 @@
+[
+    {
+        "source": {
+            "id": null,
+            "name": "Space.com"
+        },
+        "author": "Mike Wall",
+        "title": "SpaceX launches Starship Flight 4, nails landing in Indian Ocean! (video)",
+        "description": "SpaceX's massive Starship vehicle launched for the fourth time ever today (June 6), putting on quite a show.",
+        "url": "https://www.space.com/spacex-starship-flight-4-launch-landing-success",
+        "urlToImage": "https://cdn.mos.cms.futurecdn.net/yJt7YhVfv8Gk5r6p8fp9eF-1200-80.jpg",
+        "publishedAt": "2024-06-06T13:50:00Z",
+        "content": "SpaceX has done it again..."
+    },
+    {
+        "source": {
+            "id": "the-verge",
+            "name": "The Verge"
+        },
+        "author": "Tom Warren",
+        "title": "Microsoft's new Surface Pro is a great tablet, but is it a laptop replacement?",
+        "description": "The new Surface Pro 11th Edition is here with Snapdragon X Elite and X Plus chips.",
+        "url": "https://www.theverge.com/2024/6/18/24180800/microsoft-surface-pro-11th-edition-copilot-plus-pc-review",
+        "urlToImage": "https://cdn.vox-cdn.com/thumbor/P-C_1PWzW2_jQz3_W_W_W_W_W_W=/0x0:2040x1360/1200x628/filters:focal(1020x680:1021x681)/cdn.vox-cdn.com/uploads/chorus_asset/file/25455986/STK419_Surface_Pro_1.jpg",
+        "publishedAt": "2024-06-18T13:00:00Z",
+        "content": "Microsoft's new Surface Pro is mostly a known quantity..."
+    },
+    {
+        "source": {
+            "id": "bbc-news",
+            "name": "BBC News"
+        },
+        "author": "BBC News",
+        "title": "AI breakthroughs in 2024: What to expect",
+        "description": "From generative video to better reasoning, verify what is next for Artificial Intelligence.",
+        "url": "https://www.bbc.com/news/technology",
+        "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/3A9C/production/_133280000_gettyimages-123456789.jpg",
+        "publishedAt": "2024-01-15T09:00:00Z",
+        "content": "Artificial Intelligence continues to evolve at a rapid pace..."
+    },
+    {
+        "source": {
+            "id": "cnn",
+            "name": "CNN"
+        },
+        "author": "CNN",
+        "title": "Global markets rally as inflation data shows improvement",
+        "description": "Stock markets across the globe hit record highs today as new data suggests inflation is cooling down faster than expected.",
+        "url": "https://edition.cnn.com/business",
+        "urlToImage": null,
+        "publishedAt": "2024-05-20T10:30:00Z",
+        "content": "Investors are celebrating as the latest consumer price index..."
+    }
+]

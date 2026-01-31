@@ -1,6 +1,6 @@
 import { React, useState, useEffect } from "react";
-
 import NewsItem from "./NewsItem";
+import sampleNews from "../sampleNews.json";
 
 const NewsBoard = ({ category }) => {
     const [articles, setArticles] = useState([]);
@@ -8,13 +8,21 @@ const NewsBoard = ({ category }) => {
     useEffect(() => {
         let url = `https://newsapi.org/v2/top-headlines?country=us&category=${category}&apiKey=${import.meta.env.VITE_API_KEY}`;
         fetch(url)
-            .then((response) => response.json())
+            .then((response) => {
+                if (!response.ok) {
+                    throw new Error("Network response was not ok " + response.statusText);
+                }
+                return response.json();
+            })
             .then((data) => {
                 if (data.articles) {
-                    setArticles(data.articles)
+                    setArticles(data.articles);
                 }
             })
-            .catch((error) => console.error("Error fetching news: ", error));
+            .catch((error) => {
+                console.error("Error fetching news (likely 426 Upgrade Required for free tier on prod). Using fallback data: ", error);
+                setArticles(sampleNews);
+            });
     }, [category]);
 
     return (
